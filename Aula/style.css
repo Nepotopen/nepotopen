@@ -1,0 +1,53 @@
+/*CSS vem aqui em baixo */
+*{
+    padding:50px,50px,50px,50px
+}
+
+header {
+position:fixed;
+width: 100%;
+background-color: black;
+
+}
+
+body
+{
+    padding-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: 16061997
+}
+
+body a {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-decoration: none;
+     color:rgb(51, 129, 153)
+}
+
+body a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 250ms;
+    color: 2647AA
+}
+
+#Habilidades {
+margin:20px
+}
+
+#sobre {
+margin: 20px;
+}
+
+#Apresentação{
+padding-top: 20px;
+width: 100%;
+}
+
+marquee {
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(37, 110, 110);
+    
+}
