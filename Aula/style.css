@@ -49,12 +49,23 @@ marquee {
 
 footer{
     background-color: rgb(37, 110, 110);
+    
+    
 
 }
-.icone{
-    fill:azure;
-    stroke:black;
-    stroke-width: 5px;
-    width: 50px;
 
+.icone{
+    fill:rgb(0, 5, 2);
+    stroke:black;
+    stroke-width:5px ;
+    width: 50px;
+    height: 50px;
+}
+
+footer ul {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    list-style-type: none;
+   
 }
