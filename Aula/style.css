@@ -34,9 +34,6 @@ body a:hover {
 margin:20px
 }
 
-#sobre {
-margin: 20px;
-}
 
 #Apresentação{
 padding-top: 20px;
@@ -50,8 +47,6 @@ marquee {
 footer{
     background-color: rgb(37, 110, 110);
     
-    
-
 }
 
 .icone{
@@ -65,7 +60,57 @@ footer{
 footer ul {
     display:flex;
     justify-content: center;
-    gap:20px;
+    gap: 5px;
     list-style-type: none;
    
+}
+#sobre {
+    display:flex;
+    gap: 50px;
+    padding-top: 10x;
+    padding-inline: 50px;
+
+}
+
+.iconeslink{
+    fill:rgb(1, 8, 4);
+    stroke:black;
+    stroke-width:5px ;
+    width: 25px;
+    height: 25px;
+   
+}
+
+.iconesconteiner {
+
+    display:flex;
+    flex-wrap:row;
+    align-items:center;
+    justify-content: center;
+    gap:5px;
+    padding: 5px;
+}
+
+.iconesbloco{
+border: 1px black;
+    display: flex;
+    flex-direction:column;
+    padding: 5px;
+}
+
+.textosobre {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.textosobre h3, p {
+    align-self: center;
+    text-align: center;
+}
+
+
+.habilidadeconteiner {
+    align-self: center;
+    text-align: center;
 }
